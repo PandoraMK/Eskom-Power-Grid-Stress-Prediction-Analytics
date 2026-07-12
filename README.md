@@ -3,7 +3,7 @@
 An end-to-end data engineering and predictive analytics project that models South Africa's electricity grid stress. This project demonstrates how power plant breakdowns (UCLF) directly trigger emergency diesel turbine (OCGT) deployment.
 
 ## Dashboard Insights
-*A summary of the Power BI visual audit:*
+*A summary of the Power BI visual audit (01_ESKOM_data_audit):*
 * Discovered a strong positive correlation between high plant breakdowns (`Total UCLF`) and sudden spikes in emergency diesel generation.
 * Identified distinct operational "Stress Zones" where capacity drop-offs necessitate immediate grid intervention.
 
