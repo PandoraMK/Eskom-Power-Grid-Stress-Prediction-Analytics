@@ -17,3 +17,12 @@ Based on our Random Forest feature importance analysis:
 1. **`UCLF_lag_1h` (Top Driver):** Immediate past generation breakdowns are the strongest predictor of emergency diesel reliance.
 2. **`demand_lag_24h`:** Yesterday's consumer demand provides the baseline load expectation.
 3. **Behavioral Traps:** Time-based indicators like weekends (`is_weekend`) and daily peaks (`is_peak_hour`) carry minimal predictive weight compared to sudden equipment failure.
+
+### Domain Terms (Power Grid Engineering)
+
+* **Eskom:** South Africa's national electricity public utility. It generates, transmits, and distributes the vast majority of the country's electricity supply.
+* **OCGT (Open-Cycle Gas Turbines):** Emergency diesel-powered generators. They are incredibly expensive to run and are deployed strictly during peak demand or severe emergencies to prevent total grid collapse. 
+* **UCLF (Unplanned Capacity Loss Factor):** The percentage of Eskom’s total generation capacity that is offline due to unexpected breakdowns, plant trips, or emergency maintenance. 
+* **Reserve Margin:** The extra generation capacity available above the actual consumer demand. It acts as the grid's safety buffer.
+
+> **Core Dynamic:** When unexpected breakdowns (**UCLF**) spike, the **Reserve Margin** shrinks. If it drops too low, operators must ramp up emergency diesel generation (**OCGT**) or resort to load-shedding to balance the grid.
